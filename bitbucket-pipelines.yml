@@ -9,6 +9,6 @@ pipelines:
   default:
     - step:
         script: # Modify the commands below to build your repository.
-          - dotnet restore ~/src/dotnetstarter/project.json
-          - dotnet build ProjectName
+          - dotnet restore
+          - dotnet build
 #          - dotnet test TestName
